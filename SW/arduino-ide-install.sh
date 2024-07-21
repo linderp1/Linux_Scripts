@@ -4,8 +4,9 @@ sudo apt install libfuse2t64
 # see: https://github.com/AppImage/AppImageKit/wiki/FUSE
 wget https://downloads.arduino.cc/arduino-ide/nightly/arduino-ide_nightly-latest_Linux_64bit.AppImage
 chmod +x arduino-ide_nightly-latest_Linux_64bit.AppImage
-cp arduino.desktop /home/pascal/.local/share/applications
-cp arduino-ide.sh /home/pascal
-cp arduino.png /home/pascal
+mv arduino-ide_nightly-latest_Linux_64bit.AppImage /home/pascal/
+cp SW/arduino.desktop /home/pascal/.local/share/applications
+cp SW/arduino-ide.sh /home/pascal
+cp SW/arduino.png /home/pascal
 mkdir /home/pascal/.arduinoIDE
-cp arduino-cli.yaml /home/pascal/.arduinoIDE
+cp SW/arduino-cli.yaml /home/pascal/.arduinoIDE

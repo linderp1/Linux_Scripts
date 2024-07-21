@@ -1,1 +1,1 @@
-/home/pascal/SW/arduino-ide_nightly-latest_Linux_64bit.AppImage --no-sandbox
+/home/pascal/arduino-ide_nightly-latest_Linux_64bit.AppImage --no-sandbox
