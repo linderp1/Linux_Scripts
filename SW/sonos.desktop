@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=0.4.0-rc1
+Type=Application
+Name=Unofficial Sonos Controller for Linux
+Comment=Unofficial Sonos Controller for Linux
+#replace TryExec and Exec entry with file path obtained above
+#TryExec=/home/pascal/arduino-ide.sh
+Exec=/home/pascal/sonos-controller.sh
+#Exec=/home/pascal/SW/sonos-controller-unofficial-0.4.0-rc1.AppImage
+Icon=/home/pascal/sonos.png
+#Actions=Editor
+Categories=Audio;

@@ -68,3 +68,8 @@ echo "##########################################################################
 echo "# Install Gnome Shell Extension - Sound Input & Output Device Chooser                                           "
 echo "################################################################################################################"
 ./SW/sound_input_output.sh
+
+echo "################################################################################################################"
+echo "# Install Unofficial Sonos Controller, an electron based application, installed as an AppImage                  "
+echo "################################################################################################################"
+./SW/sonos-controller-install.sh
