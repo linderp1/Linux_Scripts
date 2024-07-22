@@ -1,5 +1,10 @@
+# Sources: https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+# Remark: Currently, this extension is not compatible with Gnome 46 that is delivered with Ubuntu 24.04 :-(
+#
 # Install flatpak
 sudo apt install -y flatpak
+# install flatpak repository
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # Install "Extensions" a flatpak package
 flatpak install flathub org.gnome.Extensions
 # Then run it
